@@ -1,0 +1,208 @@
+/* poopins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Roboto:wght@100;400;500;900&display=swap");
+
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+/* common style */
+.container {
+  width: 970px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+section {
+  padding: 50px 0;
+}
+.btn {
+  background-color: tomato;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p {
+  padding: 1.5rem 0;
+  padding-top: 0;
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+input {
+  background-color: #ddd;
+}
+.btn,
+input {
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* header section start */
+header {
+  color: #fff;
+  background: url(./images/donation6.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+.main-banner {
+  padding: 80px 0;
+}
+.main-banner h1 {
+  font-size: 5rem;
+  padding-bottom: 1.8rem;
+}
+/* header section end */
+
+/* donate section start */
+.donate p {
+  font-weight: 200;
+}
+.donate-amount span {
+  background-color: #ddd;
+  padding: 40px;
+  display: inline-block;
+  font-size: 1.6rem;
+}
+.donate-amount span.tk-active {
+  color: tomato;
+  font-weight: 700;
+  border: 1px solid tomato;
+}
+.donate-amount {
+  padding-bottom: 1rem;
+}
+hr {
+  margin-bottom: 10px;
+}
+/* donate section end */
+
+/* donate plan start */
+.donate-plan p {
+  font-weight: 200;
+}
+.helping-plans {
+  display: flex;
+  text-align: left;
+  gap: 10px;
+}
+.plan {
+  /* margin: 0 0.5rem; */
+  flex-basis: 33%;
+  padding: 1rem;
+  column-gap: 0.5rem;
+}
+.plan:first-child {
+  background-color: tomato;
+}
+.plan:nth-child(2) {
+  background: navajowhite;
+}
+.plan:nth-child(3) {
+  background: lightgray;
+}
+/* donate plan end */
+
+/* contribute section start */
+.contribute {
+  display: flex;
+  gap: 10px;
+}
+.contribute-text {
+  flex-basis: 55%;
+}
+.contribute-image-part {
+  flex-basis: 45%;
+  /* padding: 20px; */
+}
+.contribute-image-part img {
+  width: 100%;
+}
+/* contribute section end */
+
+/* donation-link start */
+.donation-link {
+}
+.donation-content {
+  padding-top: 1rem;
+  display: flex;
+  gap: 10px;
+}
+.helpless-people-img {
+  flex-basis: 55%;
+}
+.helpless-people-img img {
+  width: 100%;
+}
+.donation-details {
+  flex-basis: 45%;
+}
+.donation-details span {
+  display: inline-block;
+}
+
+.donation-details span a {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  border: 1px solid #000;
+  padding: 25px;
+  border-radius: 10px;
+  margin: 0px 13px 13px 0px;
+  transition: 0.3s all;
+}
+.donation-details span a:hover {
+  background-color: tomato;
+}
+/* donation-link end */
+
+/* update section start */
+.update p {
+  width: 50%;
+  margin: 0 auto;
+}
+.update-input {
+  background-color: lightsalmon;
+  width: 60%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+.update input[type="text"] {
+  padding: 13px 20px;
+  margin: -3px;
+  outline: 0;
+  border: 0;
+}
+.update-input input[type="button"] {
+  margin: 0;
+  border-radius: 0;
+}
+/* update section end */
+
+/* footer start */
+footer {
+  color: #fff;
+  background-color: #2e2e2e;
+}
+footer h2 {
+  color: tomato;
+}
+/* footer end */
